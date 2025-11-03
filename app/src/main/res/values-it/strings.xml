@@ -37,4 +37,6 @@
 
     <string name="mayorEdad">maggiorenne</string>
     <string name="menorEdad">minorenne</string>
+
+    <string name="idiomas">cambiare lingua</string>
 </resources>

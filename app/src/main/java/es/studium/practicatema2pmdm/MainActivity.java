@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     RadioGroup radioGroup;
 
     TextView textVoid;
+     Button buttonIdioma;
 
 
 
@@ -76,6 +77,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         radioGroup = findViewById(R.id.radioGroup);
         switch1 = findViewById(R.id.switchHijos);
         textVoid =  findViewById(R.id.textVoid);
+
+        buttonIdioma = findViewById(R.id.buttonIdioma);
+
+        buttonIdioma.setOnClickListener(v -> {
+            String currentLang = java.util.Locale.getDefault().getLanguage();
+
+            // Cambiar cíclicamente entre español - inglés - italiano - español
+            switch (currentLang) {
+                case "es":
+                    setLocale("en");
+                    break;
+                case "en":
+                    setLocale("it");
+                    break;
+                default:
+                    setLocale("es");
+                    break;
+            }
+        });
+
+
     }
 
     @Override
@@ -167,4 +189,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+    private void setLocale(String langCode) {
+        java.util.Locale locale = new java.util.Locale(langCode);
+        java.util.Locale.setDefault(locale);
+
+        android.content.res.Configuration config = new android.content.res.Configuration();
+        config.setLocale(locale);
+        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+
+        recreate(); // Reinicia la actividad para aplicar el cambio
+}
 }
