@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Personal data</string>
+    <string name="hintNombre">Write your name</string>
+    <string name="hintApellidos">Write your surnames</string>
+    <string name="hintEdad">Write your age</string>
+    <string name="hintHombre">Man</string>
+    <string name="hintMujer">Woman</string>
+    <string name="textGenero">Choose your gender</string>
+    <string name="hintCivil">Choose your marital status</string>
+
+    <string name="spinnerSeleccione">Choose your marital status...</string>
+    <string name="spinnerSoltero">Single</string>
+    <string name="spinnerCasado">Married</string>
+    <string name="spinnerSeparado">Separated</string>
+    <string name="spinnerViudo">Widower</string>
+    <string name="spinnerOtro">Other</string>
+
+    <string name="textHijos">Have children?</string>
+
+    <string name="textSi">Yes</string>
+    <string name="textNo">No</string>
+
+    <string name="buttonAceptar">Accept</string>
+    <string name="buttonLimpiar">Clean</string>
+
+    <string name="textFaltaNombre">Name missing</string>
+    <string name="textFaltaApellidos">Surnames missing</string>
+    <string name="textFaltaEdad">Age missing</string>
+    <string name="textFaltaGenero">Choose a gender</string>
+    <string name="textFaltaEstado">Choose a marital status</string>
+
+    <string name="siHijos">Have children</string>
+    <string name="noHijos">Has no children</string>
+
+    <string name="opcionHombre">Is a man</string>
+    <string name="opcionMujer">Is a woman</string>
+
+    <string name="mayorEdad">adult</string>
+    <string name="menorEdad">under-age</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

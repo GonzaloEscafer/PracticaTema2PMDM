@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Dati personali</string>
+    <string name="hintNombre">Scriva il suo nome</string>
+    <string name="hintApellidos">Scriva il suo cognome</string>
+    <string name="hintEdad">Scriva la sua età</string>
+    <string name="hintHombre">Uomo</string>
+    <string name="hintMujer">Donna</string>
+    <string name="textGenero">Scelga il suo genere</string>
+    <string name="hintCivil">Scelga il suo stato civile</string>
+
+    <string name="spinnerSeleccione">Selezioni uno stato civile...</string>
+    <string name="spinnerSoltero">Celibe/Nubile</string>
+    <string name="spinnerCasado">Sposato/a</string>
+    <string name="spinnerSeparado">Separato/a</string>
+    <string name="spinnerViudo">Vedovo/a</string>
+    <string name="spinnerOtro">Altro</string>
+
+    <string name="textHijos">Ha figli?</string>
+
+    <string name="textSi">Sì</string>
+    <string name="textNo">No</string>
+
+    <string name="buttonAceptar">Accetta</string>
+    <string name="buttonLimpiar">Cancella</string>
+
+    <string name="textFaltaNombre">Manca il nome</string>
+    <string name="textFaltaApellidos">Manca il cognome</string>
+    <string name="textFaltaEdad">Manca l\'età</string>
+    <string name="textFaltaGenero">Manca la scelta del genere</string>
+    <string name="textFaltaEstado">Manca la scelta dello stato civile</string>
+
+    <string name="siHijos">Ha figli</string>
+    <string name="noHijos">Non ha figli</string>
+
+    <string name="opcionHombre">È un uomo</string>
+    <string name="opcionMujer">È una donna</string>
+
+    <string name="mayorEdad">maggiorenne</string>
+    <string name="menorEdad">minorenne</string>
+</resources>

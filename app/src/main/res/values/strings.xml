@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="hintNombre">Escriba su nombre</string>
+    <string name="hintApellidos">Escriba sus apellidos</string>
+    <string name="hintEdad">Escriba su edad</string>
+    <string name="hintHombre">Hombre</string>
+    <string name="hintMujer">Mujer</string>
+    <string name="textGenero">Escoja su género</string>
+    <string name="hintCivil">Escoja su estado civil</string>
+
+    <string name="spinnerSeleccione">Seleccione un estado civil...</string>
+    <string name="spinnerSoltero">Soltero</string>
+    <string name="spinnerCasado">Casado</string>
+    <string name="spinnerSeparado">Separado</string>
+    <string name="spinnerViudo">Viudo</string>
+    <string name="spinnerOtro">Otro</string>
+
+    <string name="textHijos">¿Tiene hijos?</string>
+
+    <string name="textSi">Si</string>
+    <string name="textNo">No</string>
+
+    <string name="buttonAceptar">Aceptar</string>
+    <string name="buttonLimpiar">Limpiar</string>
+
+    <string name="textFaltaNombre">Falta el nombre</string>
+    <string name="textFaltaApellidos">Faltan los apellidos</string>
+    <string name="textFaltaEdad">Falta la edad</string>
+    <string name="textFaltaGenero">Falta escoger un género</string>
+    <string name="textFaltaEstado">Falta escoger un estado civil</string>
+
+    <string name="siHijos">Tiene hijos</string>
+    <string name="noHijos">No tiene hijos</string>
+
+    <string name="opcionHombre">Es un hombre</string>
+    <string name="opcionMujer">Es una mujer</string>
+
+    <string name="mayorEdad">mayor de edad</string>
+    <string name="menorEdad">menor de edad</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
